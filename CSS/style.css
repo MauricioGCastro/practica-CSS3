@@ -1,0 +1,186 @@
+/* Esto es un comentario */
+/* Selector Univeral */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Esto es un selector de etiqueta */
+h1 {
+    color: yellowgreen;
+}
+
+/* selector de clase */
+.caja {
+    width: 100px;
+    height: 100px;
+    border: 3px solid lightcoral;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* selector por ID */
+
+#fondoazul{
+    background-color: lightgreen;
+    border-radius: 30%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: -1;
+}
+.ancestro{
+    position: relative;
+}
+#fondoazul1 {
+    background-color: rgba(51, 150, 255, 0.5);
+    position: relative;
+    top: 40px;
+    left: 40px;
+    z-index: -1;
+}
+#fondoazul2 {
+    background-color: rgb(51, 150, 255);
+    position: relative;
+    
+}
+
+nav {
+    background-color: rgb(44, 44, 44);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+nav a {
+color: whitesmoke;
+text-decoration: none;
+margin: 10px;
+padding: 15px;
+z-index: 1;
+}
+
+nav a:hover{
+    background-color: tomato;
+}
+
+.top-ancestro{
+    position: relative;
+
+}
+.top-header{
+    position: absolute;
+    z-index: -1;
+}
+.Encabezado {
+    background-color: transparent;
+    padding: 35px;
+    margin-top: 58px;
+    margin-bottom: 130px;
+    position: relative;
+    z-index: -1;
+}
+.Encabezado h1 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    text-align: center;
+}
+.Encabezado h4 {
+    margin-bottom: 10px;
+    color: whitesmoke;
+    text-align: center;
+}
+.contenedor {
+    margin: 25px;
+    text-align: center;
+}
+.contenedor p {
+    text-align: justify;
+    padding: 10px;
+}
+footer {
+    background-color: rgb(44, 44, 44);
+    padding: 15px;
+    text-align: center;
+    color: whitesmoke;
+}
+h1,h2,h3, h4, h5, h6 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: lightskyblue;
+}
+ul {
+    list-style: inside;
+    list-style-type: square;
+}
+ol {
+    list-style-position: inside;
+    list-style-type: upper-roman;
+}
+button {
+    padding: 15px;
+    color: whitesmoke;
+}
+.azul {
+    background-color: blue;
+}
+.naranja {
+    background-color: orangered;
+}
+button {
+color: whitesmoke;
+text-decoration: none;
+margin: 10px;
+padding: 10px;
+padding-left: 30px;
+padding-right: 30px;
+border: double darkgrey;
+border-radius: 5px;
+box-shadow: black;
+}
+
+button:hover{
+    background-color: gray;
+}
+hr{
+    margin-top: 15px;
+}
+/*tablas*/
+table{
+    width: 100%;
+    border: 1px solid darkgray;
+}
+td{
+    padding: 10px;
+}
+th{
+    padding: 10px;
+    color: darkblue;
+}
+
+/*este estilo pinta las filas impares*/
+tbody tr:nth-child(2n+1){
+    background-color: lightsteelblue;
+}
+/*pintar filas pares*/
+tr:nth-child(even){
+    background-color: lightsalmon;
+}
+/*practica de flexbox*/
+.row{
+    display: flex;
+}
+.columna{
+margin: 0px 25px;
+text-align: justify;
+}
+/*boton de whatsapp*/
+.whatsapp{
+    position: fixed;
+    z-index: 1;
+    top: 800px;
+    left: 1170px;
+}
